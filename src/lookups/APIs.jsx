@@ -17,9 +17,9 @@ export const useExclusions = () => {
                 return response.json();
             })
             .then((json) => {
-                json.map(item => {
+                setExclusions(json.map(item => {
                     return item.PartNumber
-                })
+                }))
             });
     }, []);
 
