@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PartsForm should match snapshot 1`] = `
+<form>
+  <label>
+    Which part number are you looking for?
+    <div>
+      <input
+        class="sc-bdfBQB ea-DHut"
+        placeholder="1234-example"
+        type="text"
+        value=""
+      />
+      <input
+        class="sc-bdfBQB ea-DHut"
+        type="submit"
+        value="Submit"
+      />
+    </div>
+  </label>
+  <div
+    class="sc-gsTEea gdzeFY"
+  />
+</form>
+`;

@@ -10,4 +10,9 @@ describe('PartsForm', () => {
         );
         expect(getByText('Which part number are you looking for?')).toBeInTheDocument();
     });
+    it('should match snapshot', () => {
+        const { container } = render(<PartsForm />);
+        expect(container.firstChild).toMatchSnapshot();
+    });
+
 });
